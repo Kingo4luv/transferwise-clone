@@ -144,13 +144,13 @@
                                     </div>
                                     <div class="flex items-center space-x-3 font-light">
                                          <span class="block w-6 h-6 bg-converter-border rounded-full text-white flex items-center justify-center text-lg"> = </span>
-                                         <p class="text-text-accent font-light text-sm lg:text-base">995.53 USD</p>
-                                         <p class="text-text-accent font-light text-xs lg:text-base">Amount we convert</p>
+                                         <p class="text-text-accent font-light text-sm lg:text-sm">995.53 USD</p>
+                                         <p class="text-text-accent font-light text-xs lg:text-sm">Amount we convert</p>
                                     </div>
                                     <div class="flex items-center space-x-3">
                                          <span class="block w-6 h-6 bg-converter-border rounded-full text-white flex items-center justify-center"> x </span>
-                                         <p class="text-accent font-medium text-sm lg:text-base">527.932</p>
-                                         <p class="text-text-accent font-light text-xs lg:text-base">Guaranteed rate (2hrs)</p>
+                                         <p class="text-accent font-medium text-sm lg:text-sm">527.932</p>
+                                         <p class="text-text-accent font-light text-xs lg:text-sm">Guaranteed rate (2hrs)</p>
                                     </div>
                                  </div>
                              </div>

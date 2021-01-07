@@ -22,7 +22,7 @@
             leave-from-class="translate-y-0 lg:opacity-100 lg:translate-y-0 lg:scale-100"
             leave-to-class="translate-y-full lg:opacity-0 lg:translate-y-4 lg:translate-y-0 lg:scale-95"
             >
-                <div v-show="showFilter"   class="w-full pl-0 lg:pl-6 fixed lg:absolute bottom-0 left-0 lg:top-0 lg:right-0 z-10">
+                <div v-show="showFilter"  class="w-full pl-0 lg:pl-6 fixed lg:absolute bottom-0 left-0 lg:top-0 lg:right-0 z-20">
                     <div class="w-full bg-white rounded shadow-xl h-60 px-2 py-2 overflow-y-auto ">
                         <div class="w-full h-12 flex border-b py-2 items-center justify-between">
                             <span class="w-1/6 px-4">
@@ -31,9 +31,9 @@
                             <input type="text" placeholder="Type a currency / country" class="w-full h-full text-gray-500 px-2 focus:outline-none font-light">
                         </div>
                         <div class="text-gray-600 text-sm mt-2">
-                            <h2 class="px-2 mb-2">All Currencies</h2>
+                            <h2 id="filter" class="px-2 mb-2">All Currencies</h2>
                             <div class="w-full">
-                                <div id="filter" class="w-full py-3 flex space-x-2 px-2 rounded tracking-wide cursor-pointer" :class="`${dataCountry === currency.icon ? 'bg-primary text-white': 'text-gray-600 hover:bg-gray-100'}`" v-for="(currency, index) in currencies" :key="index" @click="selectCurrency(currency)">
+                                <div class="w-full py-3 flex space-x-2 px-2 rounded tracking-wide cursor-pointer" :class="`${dataCountry === currency.icon ? 'bg-primary text-white': 'text-gray-600 hover:bg-gray-100'}`" v-for="(currency, index) in currencies" :key="index" @click="selectCurrency(currency)">
                                     <country-flag :country="`${currency.icon}`" size='normal' class="hidden lg:block"/>
                                     <span class="uppercase" :class="`${dataCountry === currency.icon ? 'text-white': 'text-gray-800'}`">{{currency.name}}</span>
                                     <span class="capitalize">{{currency.title}}</span>
@@ -43,35 +43,6 @@
                     </div>
                 </div>
             </transition>
-            <!-- <transition
-            enter-active-class="transform transition ease-in-out duration-500 sm:duration-700"
-            enter-class="translate-y-full"
-            enter-to-class="translate-y-0"
-            leave-active-class="transform transition ease-in-out duration-500 sm:duration-700"
-            leave-from-class="translate-y-0"
-            leave-to-class="translate-y-full"
-            >
-                <div v-show="showFilter"  class="w-full fixed bottom-0 left-0 block lg:hidden z-20">
-                    <div class="w-full bg-white rounded shadow-xl h-60 px-2 py-2 overflow-y-auto ">
-                        <div class="w-full h-12 flex border-b py-2 items-center justify-between">
-                            <span class="w-1/6 px-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500" viewBox="0 0 24 24" fill="currentColor"><path class="heroicon-ui" d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
-                            </span>
-                            <input type="text" id="input" placeholder="Type a currency / country" class="w-full h-full text-gray-500 px-2 focus:outline-none font-light">
-                        </div>
-                        <div class="text-gray-600 text-sm mt-2">
-                            <h2 class="px-2 mb-2">All Currencies</h2>
-                            <div class="w-full">
-                                <div id="filter" class="w-full py-3 flex space-x-2 px-2 rounded tracking-wide cursor-pointer" :class="`${dataCountry === currency.icon ? 'bg-primary text-white': 'text-gray-600 hover:bg-gray-100'}`" v-for="(currency, index) in currencies" :key="index" @click="selectCurrency(currency)">
-                                    <country-flag :country="`${currency.icon}`" size='normal'/>
-                                    <span class="uppercase" :class="`${dataCountry === currency.icon ? 'text-white': 'text-gray-800'}`">{{currency.name}}</span>
-                                    <span class="capitalize">{{currency.title}}</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </transition> -->
         </div>
    </div>
 </template>
@@ -147,11 +118,10 @@ export default {
             this.showFilter = false
         },
         onClickOutside (event) {
-            console.log(event.target.class);
-           if(event.target.id === 'filter' || event.target.id === 'input'){
+           if(event.target.id === 'filter' || event.target.type === 'text'){
                return;
            }
-        //    return this.showFilter = false
+           return this.showFilter = false
         },
         selectCurrency(currency){
            this.dataCountry = currency.icon

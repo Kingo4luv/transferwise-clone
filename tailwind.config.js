@@ -21,11 +21,18 @@ module.exports = {
         "converter-button": "#2e4369",
         "converter-border": "#253655",
         "text-calculator": "#5d7079",
+        "testimony": "#829ca9",
+        "fader-background": "#2e4369",
+        "link": "#f2f5f7",
 
         white: "#ffffff",
 
         black: "#000000",
         "black-light": "#222222"
+      },
+
+      height:{
+        "story-height": "520px"
       },
 
       

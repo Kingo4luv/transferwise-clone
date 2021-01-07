@@ -7,11 +7,11 @@
             </div>
             <div @click="openFilter" v-click-outside="onClickOutside" class="bg-converter-button border border-transparent hover:border-gray-400 hover:bg-converter-border rounded-r w-1/3 cursor-pointer flex justify-between items-center px-2">
                 <div class="flex items-center text-white space-x-2">
-                    <country-flag :country="`${dataCountry}`" size='normal'/>
+                    <country-flag :country="`${dataCountry}`" class="hidden lg:block" size='normal'/>
                     <span class="font-medium text-base lg:text-xl">{{dataCurrency}}</span>
                 </div>
                 <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-7 lg:h-5 w-7 lg:w-5 transition ease-in-out duration-150 text-accent" viewBox="0 0 24 24"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-7  w-7  transition ease-in-out duration-150 text-accent" viewBox="0 0 24 24"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>
                 </span>
             </div>
             <transition
@@ -34,7 +34,7 @@
                             <h2 class="px-2 mb-2">All Currencies</h2>
                             <div class="w-full">
                                 <div class="w-full py-3 flex space-x-2 px-2 rounded tracking-wide cursor-pointer" :class="`${dataCountry === currency.icon ? 'bg-primary text-white': 'text-gray-600 hover:bg-gray-100'}`" v-for="(currency, index) in currencies" :key="index" @click="selectCurrency(currency)">
-                                    <country-flag :country="`${currency.icon}`" size='normal'/>
+                                    <country-flag :country="`${currency.icon}`" size='normal' class="hidden lg:block"/>
                                     <span class="uppercase" :class="`${dataCountry === currency.icon ? 'text-white': 'text-gray-800'}`">{{currency.name}}</span>
                                     <span class="capitalize">{{currency.title}}</span>
                                 </div>

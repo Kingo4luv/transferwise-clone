@@ -1,12 +1,13 @@
 <template>
-  <div id="app" class="w-full">
+  <div id="app" class="w-full font-sans">
     <Header/>
+    <Learn :mobile="true"/>
     <Graph/>
     <Cards/>
     <Support/>
     <Route/>
     <Testimonies/>
-    <Learn/>
+    <Learn :mobile="false"/>
     <Fader/>
     <Footer/>
   </div>

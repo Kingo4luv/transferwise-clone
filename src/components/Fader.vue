@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-white lg:bg-fader-background py-10 lg:py-20 text-secondary lg:text-white px-4 lg:px-0">
+    <div class="w-full bg-white lg:bg-fader-background py-10 lg:py-32 text-secondary lg:text-white px-4 lg:px-0">
         <div class="lg:w-4/6 mx-auto flex flex-col lg:flex-row">
             <div class="w-full lg:w-2/5">
                 <h3 class="font-bold text-lg lg:text-4xl text-center lg:text-left tracking-wider leading-8 px-4 lg:px-0 text-primary lg:text-white">
@@ -14,8 +14,8 @@
                         <li class="tracking-wider"><span class="text-accent mr-2">2.</span>Charge as little as possible</li>
                         <li class="tracking-wider"><span class="text-accent mr-2">3.</span>Make premium the new normal</li>
                     </ol>
-                    <div class="lg:w-40 w-full">
-                        <button class="mt-6 w-full px-6 py-3 rounded text-accent hover:text-white bg-transparent hover:bg-accent border border-accent">Find out more</button>
+                    <div class="lg:w-48 w-full">
+                        <button class="mt-6 lg:mt-10 w-full px-6 py-3 rounded text-accent hover:text-white bg-transparent hover:bg-accent border border-accent">Find out more</button>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex flex-col lg:flex-row h-auto sm:h-auto md:lg:auto lg:h-story-height">
+    <div class="w-full flex flex-col md:flex-row h-auto sm:h-auto md:lg:auto lg:h-story-height">
         <div class="w-full lg:w-1/2 z-0">
                 <img :src="story.image" :alt="story.name" class="">
         </div>

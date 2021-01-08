@@ -1,26 +1,26 @@
 <template>
-    <div class="w-full bg-white lg:bg-fader-background py-10 lg:py-32 text-secondary lg:text-white px-4 lg:px-0">
-        <div class="lg:w-4/6 mx-auto flex flex-col lg:flex-row">
-            <div class="w-full lg:w-2/5">
-                <h3 class="font-bold text-lg lg:text-4xl text-center lg:text-left tracking-wider leading-8 px-4 lg:px-0 text-primary lg:text-white">
+    <div class="w-full bg-white md:bg-fader-background py-10 lg:py-32 text-secondary md:text-white px-4 lg:px-0">
+        <div class="w-full  lg:w-5/6 xl:w-4/6 mx-auto flex flex-col md:flex-row">
+            <div class="w-full md:w-1/2 xl:w-2/5">
+                <h3 class="font-bold text-lg lg:text-4xl text-center lg:text-left tracking-wider leading-8 px-4 lg:px-0 text-primary md:text-white">
                     We’re building money without borders<span class="text-accent">.</span>
                 </h3>
                 <p class="mt-5 font-light tracking-wide text-sm text-center lg:text-left">
                     The world’s banking systems weren’t designed for people without borders. That’s why we’re building a new one.
                 </p>
-                <div class="flex flex-col-reverse lg:flex-col text-primary lg:text-white">
+                <div class="flex flex-col-reverse md:flex-col text-primary md:text-white">
                     <ol class="text-sm font-semibold mt-6 space-y-2">
                         <li class="tracking-wider"><span class="text-accent mr-2">1.</span>Be radically transparent</li>
                         <li class="tracking-wider"><span class="text-accent mr-2">2.</span>Charge as little as possible</li>
                         <li class="tracking-wider"><span class="text-accent mr-2">3.</span>Make premium the new normal</li>
                     </ol>
-                    <div class="lg:w-48 w-full">
+                    <div class="md:w-48 w-full">
                         <button class="mt-6 lg:mt-10 w-full px-6 py-3 rounded text-accent hover:text-white bg-transparent hover:bg-accent border border-accent">Find out more</button>
                     </div>
                 </div>
             </div>
-            <div class="w-full lg:w-3/5 flex items-center justify-center mt-12 lg:mt-0 ">
-                <div class="w-4/5 lg:w-2/5 h-80 lg:h-auto">
+            <div class="w-full md:w-1/2 lg:w-3/5 flex items-center justify-center sm:mt-10 md:mt-0 mt-16 ">
+                <div class="w-full sm:w-3/5 xl:w-2/5 h-80 lg:h-auto">
                     <transition
                 enter-active-class="transform transition ease-in-out duration-700"
                 enter-class="opacity-0 translate-y-4 scale-0"
@@ -29,7 +29,7 @@
                 leave-from-class="opacity-100 translate-y-0 scale-100"
                 leave-to-class="opacity-0 translate-y-4 scale-0"
                 >
-                    <img v-show="show" :src="current.src" class="w-full" alt="">
+                    <img v-show="show" :src="current.src" class="w-full h-full sm:h-60 lg:h-full " alt="">
                 </transition>
                 </div>
             </div>

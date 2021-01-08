@@ -1,7 +1,7 @@
 <template>
     <div class="w-full bg-no-repeat bg-cover py-6" :class="mobile ? 'block lg:hidden': 'hidden lg:block'" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSIxMDkwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZGVmcz48cGF0aCBpZD0iYSIgZD0iTTAgMGgxNDQwdjEwOTBIMHoiLz48bGluZWFyR3JhZGllbnQgeDE9IjQ0LjI3JSIgeTE9Ijc1LjE2JSIgeDI9IjYxLjg3JSIgeTI9Ii0uMzElIiBpZD0iYiI+PHN0b3Agc3RvcC1jb2xvcj0iIzU2NDNFNSIgb2Zmc2V0PSIwJSIvPjxzdG9wIHN0b3AtY29sb3I9IiM1NjQzRTUiIHN0b3Atb3BhY2l0eT0iLjEiIG9mZnNldD0iMTAwJSIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IHgxPSI1Ni4yNCUiIHkxPSIyMy44NCUiIHgyPSIzOC40MSUiIHkyPSIxMDAuMzElIiBpZD0iZCI+PHN0b3Agc3RvcC1jb2xvcj0iIzM2NTA4MCIgc3RvcC1vcGFjaXR5PSIuMSIgb2Zmc2V0PSIwJSIvPjxzdG9wIHN0b3AtY29sb3I9IiMzNjUwODAiIG9mZnNldD0iMTAwJSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PG1hc2sgaWQ9ImMiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PHVzZSBmaWxsPSIjRjJGNUY3IiB4bGluazpocmVmPSIjYSIvPjxwYXRoIGZpbGw9InVybCgjYikiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA0IiBtYXNrPSJ1cmwoI2MpIiBkPSJNMTE2OSAxNDQxLjU0bDY2OC4yMS0xNTc5LjhoMzA2LjY3bC02NjguMjIgMTU3OS44eiIvPjxwYXRoIGZpbGw9InVybCgjZCkiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iLjA0IiBtYXNrPSJ1cmwoI2MpIiBkPSJNLTEzMi4wMiAxMzU2LjQ5SC01NTdMMzY5LjAyLTgzMy41M0g3OTR6Ii8+PHBhdGggZmlsbD0idXJsKCNkKSIgZmlsbC1ydWxlPSJub256ZXJvIiBvcGFjaXR5PSIuMSIgbWFzaz0idXJsKCNjKSIgZD0iTS05MDcgMjU0MS42NkwxOS4wMiAzNTEuNjVINDQ0bC05MjYuMDIgMjE5MC4wMXoiLz48L2c+PC9zdmc+)">
-        <div class="w-full lg:w-4/6 mx-auto px-4 lg:px-0 py-2 lg:py-6 lg:mt-0 flex lg:flex-row flex-col-reverse" >
-            <div class="w-full lg:w-2/6">
+        <div class="w-full lg:w-5/6 xl:w-4/6 mx-auto px-4 lg:px-0 py-2 lg:py-6 lg:mt-0 flex md:flex-row flex-col-reverse" >
+            <div class="w-full md:w-1/2 xl:w-2/6">
                 <div class="relative py-2 lg:py-6">
                     <span class="hidden lg:block absolute top-0 left-0 bg-positive mr-1 rounded-full px-2 text-xs leading-5 text-white">New</span>
                     <h3 class="font-bold text-xl lg:text-4xl text-center lg:text-left text-primary tracking-wider">
@@ -31,9 +31,9 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full lg:w-4/6 flex justify-center lg:justify-end mb-6">
-                <div class="w-4/6 lg:w-3/6">
-                    <img src="https://transferwise.com/staticrab/homepage/_next/static/images/borderless-phone-32fab951adaf29c41db9463191e38ccc.jpg" alt="apple store" class="w-full">
+            <div class="w-full md:w-1/2 xl:w-4/6 flex justify-center lg:justify-end mb-6">
+                <div class="w-4/6 lg:w-3/6 flex justify-center lg:justify-end">
+                    <img src="https://transferwise.com/staticrab/homepage/_next/static/images/borderless-phone-32fab951adaf29c41db9463191e38ccc.jpg" alt="apple store" class="w-full h-auto lg:h-96">
                 </div>
             </div>
         </div>

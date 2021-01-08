@@ -1,6 +1,6 @@
 <template>
     <div  class="hero w-full bg-no-repeat bg-cover relative pb-10" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSI3NTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMCAwaDE0NDB2NzUwSDB6Ii8+PGxpbmVhckdyYWRpZW50IHgxPSI0NC4yNDglIiB5MT0iNzUuMTU2JSIgeDI9IjYxLjkxOSUiIHkyPSItLjMxMiUiIGlkPSJiIj48c3RvcCBzdG9wLWNvbG9yPSIjNTY0M0U1IiBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzU2NDNFNSIgc3RvcC1vcGFjaXR5PSIuMSIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgeDE9IjQ0LjI1MSUiIHkxPSI3NS4xNTYlIiB4Mj0iNjEuOTEyJSIgeTI9Ii0uMzEyJSIgaWQ9ImQiPjxzdG9wIHN0b3AtY29sb3I9IiM1NjQzRTUiIG9mZnNldD0iMCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjNTY0M0U1IiBzdG9wLW9wYWNpdHk9Ii4xIiBvZmZzZXQ9IjEwMCUiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCB4MT0iNTYuMjYlIiB5MT0iMjMuODM4JSIgeDI9IjM4LjM2NSUiIHkyPSIxMDAuMzEyJSIgaWQ9ImUiPjxzdG9wIHN0b3AtY29sb3I9IiMzNjUwODAiIHN0b3Atb3BhY2l0eT0iLjEiIG9mZnNldD0iMCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjMzY1MDgwIiBvZmZzZXQ9IjEwMCUiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCB4MT0iNTYuMjYlIiB5MT0iMjMuODM4JSIgeDI9IjM4LjM2NSUiIHkyPSIxMDAuMzEyJSIgaWQ9ImYiPjxzdG9wIHN0b3AtY29sb3I9IiMzNjUwODAiIHN0b3Atb3BhY2l0eT0iLjMiIG9mZnNldD0iMCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjNTY0M0U1IiBvZmZzZXQ9IjEwMCUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxtYXNrIGlkPSJjIiBmaWxsPSIjZmZmIj48dXNlIHhsaW5rOmhyZWY9IiNhIi8+PC9tYXNrPjx1c2UgZmlsbD0iIzM3NTE3RSIgeGxpbms6aHJlZj0iI2EiLz48cGF0aCBmaWxsLW9wYWNpdHk9Ii45IiBmaWxsPSJ1cmwoI2IpIiBmaWxsLXJ1bGU9Im5vbnplcm8iIG9wYWNpdHk9Ii4zOTYiIG1hc2s9InVybCgjYykiIGQ9Ik04NzQgMTYzOS44OTJMMTU0Mi4yMTQgNjNoMzA2LjY2MmwtNjY4LjIxMyAxNTc2Ljg5MnoiLz48cGF0aCBmaWxsLW9wYWNpdHk9Ii41IiBmaWxsPSJ1cmwoI2QpIiBmaWxsLXJ1bGU9Im5vbnplcm8iIG9wYWNpdHk9Ii41NTIiIG1hc2s9InVybCgjYykiIGQ9Ik0tOTgwIDQ0MDguODkyTDcyNS45NiAzODJoNzgyLjkxNmwtMTcwNS45NiA0MDI2Ljg5MnoiLz48cGF0aCBmaWxsPSJ1cmwoI2UpIiBmaWxsLXJ1bGU9Im5vbnplcm8iIG9wYWNpdHk9Ii4wNCIgbWFzaz0idXJsKCNjKSIgZD0iTTE1NTQuOTc4IDc0SDExMzBsOTI2LjAyMi0yMTg2SDI0ODF6Ii8+PHBhdGggZmlsbD0idXJsKCNmKSIgZmlsbC1ydWxlPSJub256ZXJvIiBtYXNrPSJ1cmwoI2MpIiBkPSJNLTcxNSAxNjQwTDIxMS4wMjItNTQ2SDYzNmwtOTI2LjAyMiAyMTg2eiIvPjwvZz48L3N2Zz4=)">
-        <div class="container max-w-6xl mx-auto py-3 px-4">
+        <div class="container w-full lg:max-w-6xl mx-auto py-3 px-4">
             <div class="hidden lg:block">
                 <nav  class="text-white flex justify-between items-center text-sm">
                     <div class="logo">
@@ -71,9 +71,9 @@
                     </div>
                 </div>
             </transition>
-            <div class="converter-container w-full flex flex-col lg:flex-row flex-no-wrap lg:flex-wrap py-12 mt-4 lg:mt-16 text-white">
+            <div class="converter-container w-full flex flex-col  sm:flex-row flex-no-wrap sm:flex-wrap py-12 mt-4 sm:mt-16 text-white">
                 <div class="w-full lg:w-1/2 ">
-                    <div class="w-full pr-16 pl-16 lg:pl-0 lg:pr-28">
+                    <div class="w-full px-16 lg:pl-0 lg:pr-28">
                         <h1 class="text-2xl lg:text-4xl font-semibold tracking-wide lg:tracking-wider text-center lg:text-left">
                             The cheap, fast way to send money abroad<span class="text-accent">.</span>
                         </h1>

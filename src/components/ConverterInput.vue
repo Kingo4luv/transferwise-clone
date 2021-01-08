@@ -121,7 +121,7 @@ export default {
            if(event.target.id === 'filter' || event.target.type === 'text'){
                return;
            }
-        //    return this.showFilter = false
+           return this.showFilter = false
         },
         selectCurrency(currency){
            this.dataCountry = currency.icon

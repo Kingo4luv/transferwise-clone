@@ -27,6 +27,7 @@ module.exports = {
         "testimony": "#829ca9",
         "fader-background": "#2e4369",
         "link": "#f2f5f7",
+        "overlay": "#37517ecc",
 
         white: "#ffffff",
 

@@ -8,11 +8,10 @@
                     <p class="text-text-calculator text-sm leading-6 hidden lg:block">Mid market rate <span class="px-1 text-xs font-medium rounded-full border border-accent text-accent">?</span></p>
                 </div>
             </div>
-            <img src="../assets/chart.png" alt="chart" class="w-full h-full">
-            <div class="w-full flex justify-between items-center text-sm text-text-calculator">
-                <p class="">December 7</p>
-                <p class="">January 7</p>
-            </div>
+            <apexchart class="w-full font-sans"
+               type="area" height="300"
+                :options="options" :series="series">
+            </apexchart>  
             <div class="w-full flex justify-center items-center py-2 mt-4">
                 <button class="border border-accent text-accent rounded px-6 py-2 font-medium hover:text-white hover:bg-accent">Track This Exchange</button>
             </div>
@@ -27,7 +26,47 @@
 </template>
 
 <script>
+
 export default {
-    
+    data(){
+        return{
+            options: {
+      chart: {
+        id: 'vuechart-example'
+      },
+      colors:['#1FC7A2', '#1FC7A2', '#2ED16E'],
+      fill: {
+        type: 'gradient',
+        gradient: {
+            shade: 'light',
+            type: "horizontal",
+            shadeIntensity: 0.1,
+            gradientToColors: ["#eaf8fd", "ebf9f6", "#ecfaf0"], // optional, if not defined - uses the shades of same color in series
+            inverseColors: true,
+            opacityFrom: 0.1,
+            opacityTo: 0.4,
+            stops: [0, 20, 50],
+            colorStops: []
+        }
+      },
+      xaxis: {
+        categories: [
+         "Jan 1",
+         "Jan 2",
+         "Jan 3",
+         "Jan 4",
+         "Jan 5",
+         "Jan 6",
+         "Jan 7",
+         "Jan 8",
+        ]
+      }
+    },
+    series: [{
+      name: 'series-1',
+      data: [55, 62, 89, 66, 98, 72, 101, 75]
+    }]
+        }
+    }
 }
 </script>

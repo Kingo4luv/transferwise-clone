@@ -6,7 +6,7 @@
             </h2>
             <carousel perPage=1 :autoplay="true" paginationActiveColor="#37517e">
                 <slide v-for="story in stories" :key="story.name">
-                    <Story :story="story"/>
+                    <Story :story="story" @openVideoModal="openModal"/>
                 </slide>
             </carousel>
         </div>
@@ -56,6 +56,18 @@
                </div>
            </div>
         </div>
+        <div v-show="show" class="w-full fixed top-0 left-0 w-full h-auto md:h-screen min-h-screen z-50 bg-overlay flex justify-center items-center px-2">
+            <div class="h-full md:h-4/5 w-full md:w-4/5 relative">
+                <div class="absolute top-0 right-0 -mt-10">
+                    <button @click="closeModal" class="focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6 text-white font-medium hover:text-accent" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                <youtube :video-id="videoId" :player-vars="playerVars" @playing="playing" class="w-full h-full"></youtube>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -71,26 +83,44 @@ export default {
     },
     data(){
         return{
+            show: false,
             stories:[
                 {
                     message: "I’ve probably saved two or three thousand dollars, and I’ll continue to save as I continue to use it.",
                     profile: "Sophie, Sydney, Australia",
                     name: "Sophie",
+                    videoId: "OLkLdD7LynU",
                     image: "https://transferwise.com/staticrab/homepage/_next/static/images/sophie-ccda413f0d713f5d7330c0e6146fdc69.jpg",
                 },
                 {
                     message: "With TransferWise it's just so easy and effortless.",
                     profile: "Ejiro, Toronto, Canada",
                     name: "Ejiro",
+                    videoId: "wt09PelQ_vI",
                     image: "https://transferwise.com/staticrab/homepage/_next/static/images/ejiro-275a884b244bfd2053ac4ec465b292ad.jpg"
                 },
                 {
                     message: "Using TransferWise for international payments just makes life really easy.",
                     profile: "Lucy and Yak, Brighton, UK",
                     name: "Lucy and Yak",
+                    videoId: "WAoycsB_hn0",
                     image: "https://transferwise.com/staticrab/homepage/_next/static/images/lucyYak-14c19d066aee02f54230bfc017a2521f.jpg"
                 },
-            ]
+            ],
+            videoId: '',
+            playerVars: {
+                autoplay: 1
+            }
+        }
+    },
+    methods:{
+        openModal(videoId){
+            this.videoId = videoId,
+            this.show = true
+        },
+        closeModal(){
+            this.videoId = '',
+            this.show = false
         }
     }
 }

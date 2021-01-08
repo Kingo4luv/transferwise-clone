@@ -9,7 +9,46 @@
                     </div>
                     <div class="hidden lg:block">
                         <ul class="flex items-center space-x-4">
-                            <li class="flex hover:text-accent cursor-pointer">Money Transfer <span><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5 transition ease-in-out duration-150 text-current" viewBox="0 0 24 24"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg></span></li>
+                            <li @mouseover="toggleDrop" @mouseleave="toggleDrop" class="flex hover:text-accent cursor-pointer relative">
+                                Money Transfer 
+                                <span><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5 transition ease-in-out duration-150 text-current" viewBox="0 0 24 24"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg></span>
+                                    <transition
+                                    enter-active-class="transform transition ease-in-out duration-300 "
+                                    enter-class=" opacity-0 translate-y-4 translate-y-0 scale-95"
+                                    enter-to-class="opacity-100 translate-y-0 scale-100"
+                                    leave-active-class="transform transition ease-in-out duration-300"
+                                    leave-from-class="opacity-100 translate-y-0 scale-100"
+                                    leave-to-class="opacity-0 translate-y-4 translate-y-0 scale-95"
+                                    >
+                                    <div v-show="showDrop" class="absolute top-0 right-0 rounded w-96 bg-white mt-10 shadow-xl">
+                                        <span class="absolute top-0 right-0 bg-white h-3 w-3 transform rotate-45 -mt-1 mr-3"></span>
+                                        <div class="py-12 px-6 border-b border-gray-300">
+                                            <img class="" src="https://daw291njkc3ao.cloudfront.net/conversion/navigation/send-money.svg" alt="">
+                                            <div class="flex space-x-2 items-center mt-2">
+                                                <p class="text-primary font-semibold tracking-wider text-xs">Send money</p>
+                                                <svg width="10" height="10" fill="currentColor" class="text-primary"><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
+                                            </div>
+                                            <p class="text-secondary mt-2 tracking-wider" style="font-size: 12px">
+                                                Make a one-off payment. You'll get the real exchange rate with the low fee we're known for.
+                                            </p>
+                                        </div>
+                                        <div class="py-8 bg-gray-100 rounded-b px-6">
+                                            <div class="flex space-x-2 items-center mt-2">
+                                                <p class="text-primary font-semibold tracking-wider text-xs">Send large amount</p>
+                                                <svg width="10" height="10" fill="currentColor" class="text-primary"><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
+                                            </div>
+                                            <div class="flex space-x-2 items-center mt-2">
+                                                <p class="text-primary font-semibold tracking-wider text-xs">About TransferWise</p>
+                                                <svg width="10" height="10" fill="currentColor" class="text-primary"><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
+                                            </div>
+                                            <div class="flex space-x-2 items-center mt-2">
+                                                <p class="text-primary font-semibold tracking-wider text-xs">Track your transfer</p>
+                                                <svg width="10" height="10" fill="currentColor" class="text-primary"><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </transition>
+                            </li>
                             <li class="flex hover:text-accent cursor-pointer"> <span class="bg-positive mr-1 rounded-full px-2 leading-5 text-white font-medium" style="font-size: 8px">New</span> <span>Multi-currency-account</span> <span><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5 transition ease-in-out duration-150 text-current" viewBox="0 0 24 24"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg></span></li>
                             <li class="flex hover:text-accent cursor-pointer">Business <span><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5 transition ease-in-out duration-150 text-current" viewBox="0 0 24 24"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg></span></li>
                             <li class="flex hover:text-accent cursor-pointer">Help</li>
@@ -57,7 +96,10 @@
                                 <a href="#" class="text-lg tracking-wide">TransferWise</a>
                             </div>
                             <ul class="text-sm font-medium">
-                                <li class="flex justify-between items-center py-5 border-b border-fader-background"><span>Money Transfer</span> <span><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg></span> </li>
+                                <li class="flex justify-between items-center py-5 border-b border-fader-background relative">
+                                    <span>Money Transfer</span> 
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg></span> 
+                                </li>
                                 <li class="flex justify-between py-5 border-b border-fader-background"><div><span class="mr-2">Multi-currency-account</span> <span class="bg-positive rounded-full py-1 px-2 text-white" style="font-size: 10px">New</span></div><span><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg></span></li>
                                 <li class="flex justify-between py-5 border-b border-fader-background"><span>Business</span> <span><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg></span></li>
                                 <li class="flex justify-between py-5 border-b border-fader-background"><span>Help</span> <span><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg></span></li>
@@ -217,13 +259,17 @@ export default {
 
     data(){
         return{
-            show: false
+            show: false,
+            showDrop: false,
         }
     },
 
     methods:{
         toggleShow(){
             this.show = !this.show
+        },
+        toggleDrop(){
+            this.showDrop = !this.showDrop
         }
     }
     

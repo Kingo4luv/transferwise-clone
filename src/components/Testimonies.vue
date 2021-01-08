@@ -15,7 +15,7 @@
                 <h2 class="font-bold tracking-wider text-base lg:text-2xl text-primary text-center">
                     TrustPilot score 4.7 out of 5, from 105,507 reviews<span class="text-accent">.</span>
                 </h2>
-                <p class="text-sm font-light text-secondary text-center px-2 lg:px-12 leading-6 mt-1">It’s your money. You can trust us to get it where it needs to be, but don’t take our word for it. Read our reviews at Trustpilot.com.</p>
+                <p class="text-sm text-secondary text-center px-2 lg:px-12 leading-6 mt-1">It’s your money. You can trust us to get it where it needs to be, but don’t take our word for it. Read our reviews at Trustpilot.com.</p>
            </div>
            <div class="mt-6 flex flex-col md:flex-row">
                <div class="w-full lg:w-1/3 p-2">

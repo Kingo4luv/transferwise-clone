@@ -7,7 +7,7 @@
                     <h3 class="font-bold text-xl lg:text-4xl text-center lg:text-left text-primary tracking-wider">
                         The TransferWise multi-currency account
                     </h3>
-                    <p class="mt-4 text-secondary font-light text-sm lg:text-base leading-6 text-center lg:text-left">
+                    <p class="mt-4 text-secondary text-sm lg:text-base leading-6 text-center lg:text-left">
                         Keep track of your transfers on the go with the TransferWise mobile app. Make new or repeat transfers - wherever you are - at the touch of a button.
                     </p>
                     <div class="w-full mt-6 hidden lg:block">

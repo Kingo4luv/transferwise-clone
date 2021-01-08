@@ -1,6 +1,6 @@
 <template>
     <div class="w-full relative px-2 lg:px-0 mt-6 lg:mt-0 pb-12">
-        <div class="w-full sm:w-5/6 lg:w-5/6 xl:w-3/6 mx-auto shadow-xl bg-white h-88 -mt-0 lg:-mt-16 z-10 rounded py-6 px-6">
+        <div class="w-full sm:w-5/6 lg:w-5/6 xl:w-3/6 mx-auto shadow-xl bg-white h-88 -mt-0 lg:-mt-16 z-10 rounded py-6 px-2 sm:px-6">
             <div class="mb-8 w-full text-center lg:text-left">
                 <h3 class="text-primary text-lg lg:text-xl font-medium tracking-wider">We use the real exchange rate</h3>
                <div class="w-full flex flex-col lg:flex-row justify-between items-center tracking-wide font-medium"> 

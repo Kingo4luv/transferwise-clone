@@ -1,13 +1,13 @@
 <template>
     <div class="w-full bg-white px-4 rounded">
-        <div class="header text-primary text-sm font-medium mb-3 py-5 flex justify-between items-center" @click="toggleShow">
+        <div class="header text-primary text-sm font-semibold mb-3 py-5 flex justify-between items-center" @click="toggleShow">
             <span>{{feedback.title}}</span>
             <button  class="cursor-pointer focus:outline-none">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-accent" v-html="icon"></svg>
             </button>
         </div>
         <div v-show="show" class="pb-4">
-            <p class="text-secondary font-light text-sm leading-5 tracking-wide">{{feedback.message}}</p>
+            <p class="text-secondary text-sm leading-5 tracking-wide">{{feedback.message}}</p>
         </div>
     </div>
 </template>

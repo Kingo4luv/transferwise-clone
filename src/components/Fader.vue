@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-white md:bg-fader-background  text-secondary md:text-white px-4 lg:px-0 h-auto md:h-fader-height overflow-hidden">
+    <div class="w-full bg-white md:bg-fader-background  text-secondary md:text-white px-4 lg:px-0 h-auto overflow-hidden">
         <div class="w-full h-full  lg:w-5/6 xl:w-4/6 mx-auto flex flex-col md:flex-row">
             <div class="w-full md:w-1/2  py-10 lg:py-32">
                 <h3 class="font-bold text-lg lg:text-4xl text-center lg:text-left tracking-wider leading-8 px-4 lg:px-0 text-primary md:text-white">
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 flex h-80 mb-10 md:mb-0 md:h-full relative px-2 md:px-16 image-container overflow-hidden">
+            <div class="w-full md:w-1/2 flex h-80 mb-10 md:mb-0 md:h-auto relative px-2 md:px-16 image-container overflow-hidden">
                 <div class="w-1/4 relative h-full box-border block">
                     <img class="image-1 column-1 opacity-40 absolute transform -translate-y-32 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_22-bc50bc1a346cba30fb6e407ac67a0667.jpg" alt="">
                     <img class="image-2 column-1 opacity-40 absolute transform -translate-y-32" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_9-c26aad8759c5efce2161ddd522bc2a01.jpg" alt="">
@@ -103,14 +103,14 @@ export default {
                         this.current = this.images[0];
                         this.currentIndex = 0
                         this.hideCurrent()
-                    }, 2000);
+                    }, 4000);
                 }else{
                     setTimeout(() => {
                         this.show = true;
                         this.current = this.images[this.currentIndex + 1];
                         this.currentIndex = this.currentIndex + 1
                         this.hideCurrent()
-                    }, 2000);
+                    }, 4000);
                 }
             }
         },
@@ -118,7 +118,7 @@ export default {
             setTimeout(() => {
                     this.show = false;
                     this.getCurrent();
-            }, 2000);
+            }, 5000);
         }
     }
 }
@@ -159,12 +159,12 @@ export default {
 
     .image-2{
         -webkit-animation-delay: 30s;
-        animation-delay: 30s;
+        animation-delay: 20s;
         vertical-align: middle;
     }
     .image-3{
         -webkit-animation-delay: 36s;
-        animation-delay: 60s;
+        animation-delay: 40s;
         vertical-align: middle;
     }
 
@@ -174,13 +174,13 @@ export default {
         vertical-align: middle;
     }
     .col-3 .image-2{
-        -webkit-animation-delay: 30s;
-        animation-delay: 30s;
+        -webkit-animation-delay: 22s;
+        animation-delay: 22s;
         vertical-align: middle;
     }
     .col-3 .image-3{
-        -webkit-animation-delay: 60s;
-        animation-delay: 60s;
+        -webkit-animation-delay: 42s;
+        animation-delay: 42s;
         vertical-align: middle;
     }
   

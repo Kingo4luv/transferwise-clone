@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 flex h-80 lg:h-96 mb-10 md:mb-0 md:h-auto relative px-2 md:px-16 image-container overflow-hidden">
+            <div class="w-full md:w-1/2 flex h-96 mb-10 md:mb-0 md:h-auto relative px-2 md:px-16 image-container overflow-hidden">
                 <div class="w-1/4 relative h-full box-border block">
                     <img class="image-1 column-1 opacity-40 absolute transform -translate-y-28 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_22-bc50bc1a346cba30fb6e407ac67a0667.jpg" alt="">
                     <img class="image-2 column-1 opacity-40 absolute transform -translate-y-28" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_9-c26aad8759c5efce2161ddd522bc2a01.jpg" alt="">

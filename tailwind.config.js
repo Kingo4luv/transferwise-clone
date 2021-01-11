@@ -36,7 +36,9 @@ module.exports = {
       },
 
       height:{
-        "story-height": "520px"
+        "story-height": "520px",
+        "fader-height": "544px",
+        "fader-height-mobile": "500px"
       },
 
       

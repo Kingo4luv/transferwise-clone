@@ -21,32 +21,32 @@
             </div>
             <div class="w-full md:w-1/2 flex h-96 mb-10 md:mb-0 md:h-auto relative px-2 md:px-16 image-container overflow-hidden">
                 <div class="w-1/4 relative h-full box-border block">
-                    <img class="image-1 column-1 opacity-40 absolute transform -translate-y-28 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_22-bc50bc1a346cba30fb6e407ac67a0667.jpg" alt="">
-                    <img class="image-2 column-1 opacity-40 absolute transform -translate-y-28" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_9-c26aad8759c5efce2161ddd522bc2a01.jpg" alt="">
-                    <img class="image-3 column-1 opacity-40 absolute hidden md:block transform -translate-y-28" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_10-b1205d9bad12cb4a21f8e282e2bb2631.jpg" alt="">
+                    <img class="image-1 column-1 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_22-bc50bc1a346cba30fb6e407ac67a0667.jpg" alt="">
+                    <img class="image-2 column-1 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_9-c26aad8759c5efce2161ddd522bc2a01.jpg" alt="">
+                    <img class="image-3 column-1 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_10-b1205d9bad12cb4a21f8e282e2bb2631.jpg" alt="">
                 </div>
                  <div class="w-1/4 relative h-full box-border block">
-                    <img class="image-1 column-2 opacity-40 absolute transform -translate-y-28 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_13-c2122cf06d2eb705e98d0d3d19ecf80f.jpg" alt="">
-                    <img class="image-2 column-2 opacity-40 absolute transform -translate-y-28" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_14-846e74d3a2d100fa1cf372baaf952ab3.jpg" alt="">
-                    <img class="image-3 column-2 opacity-40 absolute hidden md:block transform -translate-y-32" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_12-1baedd7f4cd7c73b7f3d9bbdd4590afc.jpg" alt="">
+                    <img class="image-1 column-2 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_13-c2122cf06d2eb705e98d0d3d19ecf80f.jpg" alt="">
+                    <img class="image-2 column-2 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_14-846e74d3a2d100fa1cf372baaf952ab3.jpg" alt="">
+                    <img class="image-3 column-2 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_12-1baedd7f4cd7c73b7f3d9bbdd4590afc.jpg" alt="">
                 </div>
-                 <div class="w-1/4 col-3 relative h-full box-border block">
-                    <img class="image-1 column-3 opacity-40 absolute transform -translate-y-28 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_5-be82fc2ce9ea69c4c325526748211823.jpg" alt="">
-                    <img class="image-2 column-3 opacity-40 absolute transform -translate-y-28" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_8-3579374f699f5fe66c9f949395df90f7.jpg" alt="">
-                    <img class="image-3 column-3 opacity-40 absolute hidden md:block transform -translate-y-32" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_1-c67d50b951a7e1a3d5d72237ade0cf14.jpg" alt="">
-                </div>
-                 <div class="w-1/4 relative h-full box-border block">
-                    <img class="image-1 column-2 opacity-40 absolute transform -translate-y-28 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_19-37fcb5779b86bb5585a139090d8db90d.jpg" alt="">
-                    <img class="image-2 column-2 opacity-40 absolute transform -translate-y-28" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_15-2c2e24621c42972e306dfe244227fcd9.jpg" alt="">
-                    <img class="image-3 column-2 opacity-40 absolute hidden md:block transform -translate-y-28" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_16-f221b24fc37acca2e1edf3ec5bb4dd99.jpg" alt="">
+                 <div class="w-1/4 col-3 relative h-full box-border block z-20">
+                    <img class="image-1 column-3 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_5-be82fc2ce9ea69c4c325526748211823.jpg" alt="">
+                    <img class="image-2 column-3 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_8-3579374f699f5fe66c9f949395df90f7.jpg" alt="">
+                    <img class="image-3 column-3 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_1-c67d50b951a7e1a3d5d72237ade0cf14.jpg" alt="">
                 </div>
                  <div class="w-1/4 relative h-full box-border block">
-                    <img class="image-1 column-1 opacity-40 absolute transform -translate-y-28 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_20-94244fadaef8decd4751e474258d4eee.jpg" alt="">
-                    <img class="image-2 column-1 opacity-40 absolute transform -translate-y-28" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_21-f93c171a0fa20d78a3494740f7547a4b.jpg" alt="">
-                    <img class="image-3 column-1 opacity-40 absolute hidden md:block transform -translate-y-28" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_17-bf6d39f644ff4821bbbbe3037475e5a0.jpg" alt="">
+                    <img class="image-1 column-2 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_19-37fcb5779b86bb5585a139090d8db90d.jpg" alt="">
+                    <img class="image-2 column-2 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_15-2c2e24621c42972e306dfe244227fcd9.jpg" alt="">
+                    <img class="image-3 column-2 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_16-f221b24fc37acca2e1edf3ec5bb4dd99.jpg" alt="">
+                </div>
+                 <div class="w-1/4 relative h-full box-border block">
+                    <img class="image-1 column-1 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_20-94244fadaef8decd4751e474258d4eee.jpg" alt="">
+                    <img class="image-2 column-1 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_21-f93c171a0fa20d78a3494740f7547a4b.jpg" alt="">
+                    <img class="image-3 column-1 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_17-bf6d39f644ff4821bbbbe3037475e5a0.jpg" alt="">
                 </div>
 
-                <div class="absolute inset-0 w-full flex items-center justify-center">
+                <!-- <div class="absolute inset-0 w-full flex items-center justify-center">
                     <transition
                 enter-active-class="transform transition ease-in-out duration-700"
                 enter-class="opacity-0 translate-y-4 scale-0"
@@ -57,7 +57,7 @@
                 >
                     <img v-show="show" :src="current.src" class=" w-1/2 h-1/2 " alt="">
                 </transition>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -145,8 +145,8 @@ export default {
 
     .column-3{
         animation-name: column-3;
-        animation-duration: 30s;
-        -webkit-animation-duration: 30s;
+        animation-duration: 60s;
+        -webkit-animation-duration: 60s;
         -webkit-font-smoothing: antialiased;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
@@ -175,13 +175,13 @@ export default {
         vertical-align: middle;
     }
     .col-3 .image-2{
-        -webkit-animation-delay: 22s;
-        animation-delay: 22s;
+        -webkit-animation-delay: 28s;
+        animation-delay: 28s;
         vertical-align: middle;
     }
     .col-3 .image-3{
-        -webkit-animation-delay: 42s;
-        animation-delay: 42s;
+        -webkit-animation-delay: 46s;
+        animation-delay: 46s;
         vertical-align: middle;
     }
   
@@ -195,17 +195,17 @@ export default {
     }
 
     @keyframes column-3 {
-    0%   {left:0px; top:0px;}
-    25%  {left:0px; top:25%;}
-    50%  {left:0px; top:50%;}
-    75%  {left:0px; top:75%;}
+    0%   {left:0px; top:0px; animation-delay: 0s}
+    25%  {transform: scale(1); z-index: 20;}
+    50%  {transform: scale(3); opacity: 100; z-index: 10;}
+    75%  {transform: scale(1);}
     100% {left:0px; top:100%;}
     }
 
     @keyframes column-2 {
     0%   {left:0px; top:0px;}
     25%  {left:0px; top:25%;}
-    50%  {left:0px; top:50%;}
+    50%  {left:0px; top:50% ;}
     75%  {left:0px; top:75%;}
     100% {left:0px; top:100%;}
     }

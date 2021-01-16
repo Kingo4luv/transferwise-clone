@@ -5,7 +5,7 @@
                 <h3 class="font-bold text-lg lg:text-4xl text-center lg:text-left tracking-wider leading-8 px-4 lg:px-0 text-primary md:text-white">
                     We’re building money without borders<span class="text-accent">.</span>
                 </h3>
-                <p class="mt-5 font-light tracking-wide text-sm text-center lg:text-left">
+                <p class="mt-5 font-light tracking-wide text-sm text-center lg:text-left pr-0 lg:pr-32">
                     The world’s banking systems weren’t designed for people without borders. That’s why we’re building a new one.
                 </p>
                 <div class="flex flex-col-reverse md:flex-col text-primary md:text-white">
@@ -46,7 +46,7 @@
                     <img class="image-3 column-1 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_17-bf6d39f644ff4821bbbbe3037475e5a0.jpg" alt="">
                 </div>
 
-                <div class="absolute inset-0 w-full flex items-center justify-center">
+                <div class="absolute inset-0 w-full flex flex-col items-center justify-center">
                     <transition
                     enter-active-class="transform transition ease-in-out duration-700"
                     enter-class="opacity-0 translate-y-4 scale-0"
@@ -55,21 +55,24 @@
                     leave-from-class="opacity-100 translate-y-0 scale-100"
                     leave-to-class="opacity-0 translate-y-4 scale-0"
                     >
-                        <img v-show="show" :src="current.src" class=" w-1/2 h-1/2 " alt="">
+                       <div v-show="show" class="flex flex-col justify-center items-center">
+                            <img  :src="current.src" class="w-1/2" alt="">
+                       </div>
+                    </transition>
+                    <transition
+                    enter-active-class="ease-in-out delay-700 duration-300"
+                    enter-class="opacity-0"
+                    enter-to-class="opacity-100"
+                    leave-active-class="ease-in-out delay-300 duration-300"
+                    leave-from-class="opacity-100"
+                    leave-to-class="opacity-0"
+                    >
+                       <div v-show="show" class="flex flex-col justify-center items-center">
+                            <span class="h2 text-lg lg:text-2xl font-semibold pl-36 lg:pl-60 mt-32 lg:mt-4 text-primary lg:text-white">For <span class="text-positive">{{current.tag}}</span> people.</span>
+                       </div>
                     </transition>
                 </div>
-            </div>
-            <div class="absolute bottom-0 right border tagline-container flex justify-end">
-               <div class="w-1/3 font-bold text-2xl">
-                    <span class="h2 tagline tagline-1">For <span class="text-positive">where’s home? Long story</span> people.</span>
-                    <span class="h2 tagline tagline-2">For <span class="text-positive">more than one passport</span> people.</span>
-                    <span class="h2 tagline tagline-3">For <span class="text-positive">our Portugal place, purchased</span> people.</span>
-                    <span class="h2 tagline tagline-4">For <span class="text-positive">got one app for all my currencies</span> people.</span>
-                    <span class="h2 tagline tagline-5">For <span class="text-positive">hugs at arrivals</span> people.</span>
-                    <span class="h2 tagline tagline-6">For <span class="text-positive">starting to wonder where next</span> people.</span>
-                    <span class="h2 tagline tagline-7">For <span class="text-positive">retiring in the sun</span> people.</span>
-                    <span class="h2 tagline tagline-8">For <span class="text-positive">bye bye bad exchange rates</span> people.</span>
-               </div>
+
             </div>
         </div>
     </div>
@@ -88,14 +91,15 @@ export default {
             images: [
                 {
                     src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_8-3579374f699f5fe66c9f949395df90f7.jpg",
-                    tag:"",
-                    line:""
+                    tag:"where’s home? Long story",
                 },
                 {
-                    src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_5-be82fc2ce9ea69c4c325526748211823.jpg"
+                    src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_5-be82fc2ce9ea69c4c325526748211823.jpg",
+                    tag:"our Portugal place, purchased"
                 },
                 {
-                    src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_1-c67d50b951a7e1a3d5d72237ade0cf14.jpg"
+                    src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_1-c67d50b951a7e1a3d5d72237ade0cf14.jpg",
+                    tag:"got one app for all my currencies"
                 }
             ]
         }

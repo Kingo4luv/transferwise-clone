@@ -5,7 +5,7 @@
                 <img :src="story.image" :alt="story.name" class="">
         </div>
         <div class="w-full lg:w-1/2 py-0 lg:py-16 z-10 border-box">
-                <div class="h-auto bg-primary text-white px-4 lg:px-20 -ml-0 lg:-ml-24 flex flex-col justify-center py-6 lg:py-0 h-full lg:h-96 w-full">
+                <div class="bg-primary text-white px-4 lg:px-20 -ml-0 lg:-ml-24 flex flex-col justify-center py-6 lg:py-0 h-full lg:h-96 w-full">
                     <h3 class="font-medium lg:font-bold text-xl lg:text-2xl leading-8 tracking-wide">{{story.message}}</h3>
                     <p class="text-sm font-light mt-2">{{story.profile}}</p>
                     <div class="mt-4">

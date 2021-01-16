@@ -56,7 +56,7 @@
                </div>
            </div>
         </div>
-        <div v-show="show" class="w-full fixed top-0 left-0 w-full h-auto md:h-screen min-h-screen z-50 bg-overlay flex justify-center items-center px-2">
+        <div v-show="show" class="fixed top-0 left-0 w-full h-auto md:h-screen min-h-screen z-50 bg-overlay flex justify-center items-center px-2">
             <div class="h-52 md:h-4/5 w-full md:w-4/5 relative">
                 <div class="absolute top-0 right-0 -mt-10">
                     <button @click="closeModal" class="focus:outline-none">

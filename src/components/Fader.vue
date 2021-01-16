@@ -1,6 +1,6 @@
 <template>
     <div class="w-full bg-white md:bg-fader-background  text-secondary md:text-white px-4 lg:px-0 h-auto overflow-hidden">
-        <div class="w-full h-full  lg:w-5/6 xl:w-4/6 mx-auto flex flex-col md:flex-row">
+        <div class="w-full h-full  lg:w-5/6 xl:w-4/6 mx-auto flex flex-col md:flex-row relative">
             <div class="w-full md:w-1/2  py-10 lg:py-32">
                 <h3 class="font-bold text-lg lg:text-4xl text-center lg:text-left tracking-wider leading-8 px-4 lg:px-0 text-primary md:text-white">
                     We’re building money without borders<span class="text-accent">.</span>
@@ -48,16 +48,28 @@
 
                 <div class="absolute inset-0 w-full flex items-center justify-center">
                     <transition
-                enter-active-class="transform transition ease-in-out duration-700"
-                enter-class="opacity-0 translate-y-4 scale-0"
-                enter-to-class="opacity-100 translate-y-0 scale-100"
-                leave-active-class="transform transition ease-in-out duration-700"
-                leave-from-class="opacity-100 translate-y-0 scale-100"
-                leave-to-class="opacity-0 translate-y-4 scale-0"
-                >
-                    <img v-show="show" :src="current.src" class=" w-1/2 h-1/2 " alt="">
-                </transition>
+                    enter-active-class="transform transition ease-in-out duration-700"
+                    enter-class="opacity-0 translate-y-4 scale-0"
+                    enter-to-class="opacity-100 translate-y-0 scale-100"
+                    leave-active-class="transform transition ease-in-out duration-700"
+                    leave-from-class="opacity-100 translate-y-0 scale-100"
+                    leave-to-class="opacity-0 translate-y-4 scale-0"
+                    >
+                        <img v-show="show" :src="current.src" class=" w-1/2 h-1/2 " alt="">
+                    </transition>
                 </div>
+            </div>
+            <div class="absolute bottom-0 right border tagline-container flex justify-end">
+               <div class="w-1/3 font-bold text-2xl">
+                    <span class="h2 tagline tagline-1">For <span class="text-positive">where’s home? Long story</span> people.</span>
+                    <span class="h2 tagline tagline-2">For <span class="text-positive">more than one passport</span> people.</span>
+                    <span class="h2 tagline tagline-3">For <span class="text-positive">our Portugal place, purchased</span> people.</span>
+                    <span class="h2 tagline tagline-4">For <span class="text-positive">got one app for all my currencies</span> people.</span>
+                    <span class="h2 tagline tagline-5">For <span class="text-positive">hugs at arrivals</span> people.</span>
+                    <span class="h2 tagline tagline-6">For <span class="text-positive">starting to wonder where next</span> people.</span>
+                    <span class="h2 tagline tagline-7">For <span class="text-positive">retiring in the sun</span> people.</span>
+                    <span class="h2 tagline tagline-8">For <span class="text-positive">bye bye bad exchange rates</span> people.</span>
+               </div>
             </div>
         </div>
     </div>
@@ -76,6 +88,8 @@ export default {
             images: [
                 {
                     src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_8-3579374f699f5fe66c9f949395df90f7.jpg",
+                    tag:"",
+                    line:""
                 },
                 {
                     src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_5-be82fc2ce9ea69c4c325526748211823.jpg"
@@ -184,6 +198,7 @@ export default {
         animation-delay: 42s;
         
     }
+
   
 
     @keyframes column-1 {

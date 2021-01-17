@@ -1,6 +1,11 @@
 <template>
 <div>
-    <div class="w-full flex flex-col md:flex-row h-auto sm:h-auto md:lg:auto lg:h-story-height">
+    <div class="w-full flex flex-col md:flex-row h-auto sm:h-auto md:lg:auto lg:h-story-height relative">
+        <div class="w-full h-full absolute inset-0 flex justify-center items-end z-10">
+            <div class="absolute right-1/3 bottom-3">
+                 <svg class="tw-decorations-circle tw-customer-carousel-item__circle hidden-xs hidden-sm text-yellow-500" fill="currentColor" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" width="160" height="160"><circle cx="80" cy="80" r="80"></circle></svg>
+            </div>
+        </div>
         <div class="w-full lg:w-1/2 z-0">
                 <img :src="story.image" :alt="story.name" class="">
         </div>

@@ -127,7 +127,7 @@
                         <div class="mt-12 hidden lg:block">
                             <button class="flex items-center border border-accent px-4 rounded py-2 leading-6 text-accent hover:text-white hover:bg-accent space-x-4">
                                 <span>
-                                    <svg class="tw-play-icon text-current" fill="currentColor" width="30" height="30" xmlns="http://www.w3.org/2000/svg"><path d="M15 0c8.284 0 15 6.624 15 14.796v.408C30 23.376 23.284 30 15 30 6.716 30 0 23.376 0 15.204v-.408C0 6.624 6.716 0 15 0zm4.655 14.796l-7.241-5.612v11.224l7.241-5.612z" fill-rule="nonzero"></path></svg>
+                                    <svg class="tw-play-icon text-current transition-all delay-75 " fill="currentColor" width="30" height="30" xmlns="http://www.w3.org/2000/svg"><path d="M15 0c8.284 0 15 6.624 15 14.796v.408C30 23.376 23.284 30 15 30 6.716 30 0 23.376 0 15.204v-.408C0 6.624 6.716 0 15 0zm4.655 14.796l-7.241-5.612v11.224l7.241-5.612z" fill-rule="nonzero"></path></svg>
                                 </span>
                                 <span class="font-medium">See how we send money</span>
                             </button>
@@ -178,7 +178,7 @@
                              <div class="border-l-2 border-converter-border w-full h-full relative">
                                  <div class="absolute right-0 top-0 w-full h-28 mt-4 mr-3 flex flex-col justify-between text-sm">
                                     <div class="flex space-x-3 items-center">
-                                         <span class="block w-6 h-6 bg-converter-border rounded-full text-white flex items-center justify-center text-lg font-light"> - </span>
+                                         <span class="w-6 h-6 bg-converter-border rounded-full text-white flex items-center justify-center text-lg font-light"> - </span>
                                          <p class="font-medium text-xs lg:text-base">5.53 USD</p>
                                          <button class="focus:outline-none bg-converter-button border border-transparent hover:bg-converter-border rounded cursor-pointer flex justify-between items-center px-2 py-1">
                                             <span class="text-xs">Low cost transfer</span>
@@ -189,12 +189,12 @@
                                          <p class="text-text-accent font-light">fee</p>
                                     </div>
                                     <div class="flex items-center space-x-3 font-light">
-                                         <span class="block w-6 h-6 bg-converter-border rounded-full text-white flex items-center justify-center text-lg"> = </span>
+                                         <span class="w-6 h-6 bg-converter-border rounded-full text-white flex items-center justify-center text-lg"> = </span>
                                          <p class="text-text-accent font-light text-sm lg:text-sm">995.53 USD</p>
                                          <p class="text-text-accent font-light text-xs lg:text-sm">Amount we convert</p>
                                     </div>
                                     <div class="flex items-center space-x-3">
-                                         <span class="block w-6 h-6 bg-converter-border rounded-full text-white flex items-center justify-center"> x </span>
+                                         <span class="w-6 h-6 bg-converter-border rounded-full text-white flex items-center justify-center"> x </span>
                                          <p class="text-accent font-medium text-sm lg:text-sm">527.932</p>
                                          <p class="text-text-accent font-light text-xs lg:text-sm">Guaranteed rate (2hrs)</p>
                                     </div>
@@ -226,7 +226,7 @@
                             <div class="flex items-center justify-center">
                                 <h4 class="text-sm text-accent font-medium text-center">Read on Trustpilot</h4>
                                 <span class="ml-2">
-                                    <svg class="text-accent" width="10" height="10" fill="currentColor"><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
+                                    <svg class="text-accent" width="10" height="10" fill="currentColor" ><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
                                 </span>
                             </div>
                         </div>
@@ -284,4 +284,22 @@ export default {
 
 
 </script>
+
+<style>
+.tw-trust-element #el_ZKUtuKmlJ2 {
+    fill: #dbf4fe;
+}
+
+.tw-trust-element #el_H8G--UHWO * {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(0,0,1,1);
+    animation-timing-function: cubic-bezier(0,0,1,1);
+}
+    
+</style>
 

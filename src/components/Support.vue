@@ -1,5 +1,6 @@
 <template>
     <div class="w-full lg:w-5/6 xl:w-4/6 mx-auto flex flex-col md:flex-row py-20 sm:py-32 px-4">
+
        <div class="w-full md:w-1/2 text-center md:text-left pt-0 md:pt-12 pr-0 lg:pr-32">
             <h2 class="text-2xl md:text-4xl font-bold text-primary tracking-wider">Global support in a range of languages<span class="text-accent">.</span> </h2>
             <p class="text-text-secondary tracking-wide text-sm lg:text-base mt-6">We don’t do complicated, automated systems. We have offices around the world, full of people ready to help you. Whenever you need it.</p>

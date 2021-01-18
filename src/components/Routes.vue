@@ -69,13 +69,13 @@
                         </div>
                     </div>
                     <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2 hidden lg:block">
-                        <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                        <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                             <country-flag country="ca" size='normal'/>
                             <span class="">Canada</span>
                         </div>
                     </div>
                     <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2 hidden lg:block">
-                        <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                        <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                             <country-flag country="th" size='normal'/>
                             <span class="">Thailand</span>
                         </div>
@@ -103,7 +103,7 @@
                     </div>
                 </div>
 
-                <div @click="toggleShow" class="flex justify-center items-center mt-4 lg:-mt-8 bg-transparent lg:bg-fader-background bg-opacity-90 lg:bg-opacity-70 px-3 relative">
+                <div @click="toggleShow" class="flex justify-center items-center mt-4 lg:-mt-8 bg-transparent lg:bg-opacity bg-opacity-90 lg:bg-opacity-70 px-3 relative">
                     <button class="w-full sm:w-auto px-6 py-3 rounded text-accent hover:text-white bg-transparent text-sm font-medium hover:bg-accent border border-accent">See all route we cover</button>
                 </div>
             </div>
@@ -156,13 +156,13 @@
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="ca" size='normal'/>
                                 <span class="">Canada</span>
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="th" size='normal'/>
                                 <span class="">Thailand</span>
                             </div>
@@ -180,13 +180,13 @@
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="gh" size='normal'/>
                                 <span class="">Ghana</span>
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="mr" size='normal'/>
                                 <span class="">Morocco</span>
                             </div>
@@ -216,13 +216,13 @@
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="gh" size='normal'/>
                                 <span class="">Ghana</span>
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="mr" size='normal'/>
                                 <span class="">Morocco</span>
                             </div>
@@ -244,13 +244,13 @@
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="ca" size='normal'/>
                                 <span class="">Canada</span>
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 p-2 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="th" size='normal'/>
                                 <span class="">Thailand</span>
                             </div>
@@ -280,7 +280,7 @@
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="gh" size='normal'/>
                                 <span class="">Ghana</span>
                             </div>
@@ -302,13 +302,13 @@
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="gh" size='normal'/>
                                 <span class="">Ghana</span>
                             </div>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-1/4 px-3 py-2">
-                            <div class="py-3 bg-primary flex items-center space-x-3 px-2 rounded text-white font-medium hover:text-accent">
+                            <div class="py-3 bg-primary flex items-center space-x-3 px-4 rounded text-white font-medium hover:text-accent">
                                 <country-flag country="mr" size='normal'/>
                                 <span class="">Morocco</span>
                             </div>

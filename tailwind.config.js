@@ -26,6 +26,7 @@ module.exports = {
         "text-calculator": "#5d7079",
         "testimony": "#829ca9",
         "fader-background": "#2e4369",
+        "opacity":"#2f4468",
         "link": "#f2f5f7",
         "overlay": "#37517ecc",
 

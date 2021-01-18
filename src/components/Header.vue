@@ -30,21 +30,21 @@
                                                         <strong class="text-primary tracking-wider text-sm">Send money</strong>
                                                         <svg width="10" height="10" fill="currentColor" class="text-primary"><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
                                                     </div>
-                                                    <p class="text-secondary mt-3 tracking-wider text-left">
+                                                    <p class="mt-3 tracking-wider text-left text-text-calculator" >
                                                         Make a one-off payment. You'll get the real exchange rate with the low fee we're known for.
                                                     </p>
                                                 </div>
                                                 <div class="p-10 bg-gray-100 rounded-b">
                                                     <div class="flex space-x-2 items-center mt-3" tabindex="0">
-                                                        <p class="text-primary font-semibold tracking-wider text-xs">Send large amount</p>
+                                                        <p class="text-primary font-semibold tracking-wide text-sm">Send large amount</p>
                                                         <svg width="10" height="10" fill="currentColor" class="text-primary"><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
                                                     </div>
                                                     <div class="flex space-x-2 items-center mt-3" tabindex="0">
-                                                        <p class="text-primary font-semibold tracking-wider text-xs">About TransferWise</p>
+                                                        <p class="text-primary font-semibold tracking-wide text-sm">About TransferWise</p>
                                                         <svg width="10" height="10" fill="currentColor" class="text-primary"><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
                                                     </div>
                                                     <div class="flex space-x-2 items-center mt-3" tabindex="0">
-                                                        <p class="text-primary font-semibold tracking-wider text-xs">Track your transfer</p>
+                                                        <p class="text-primary font-semibold tracking-wide text-sm">Track your transfer</p>
                                                         <svg width="10" height="10" fill="currentColor" class="text-primary"><path fill-rule="evenodd" d="M7.913 5L3.235.064 2.087 1.275 5.616 5l-3.53 3.725 1.149 1.211z"></path></svg>
                                                     </div>
                                                 </div>
@@ -123,13 +123,13 @@
                         <h1 class="text-2xl lg:text-4xl font-semibold tracking-wide lg:tracking-wider text-center lg:text-left">
                             The cheap, fast way to send money abroad<span class="text-accent">.</span>
                         </h1>
-                        <p class="hidden lg:block mt-12 text-text-hero font-light">Join over 9 million people who get the real exchange rate with TransferWise. We’re <span class="text-accent underline">on average 8x cheaper</span> than leading UK high street banks.</p>
-                        <div class="mt-12 hidden lg:block">
+                        <p class="hidden lg:block mt-6 text-text-hero font-light" style="font-size:15px">Join over 9 million people who get the real exchange rate with TransferWise. We’re <span class="text-accent underline">on average 8x cheaper</span> than leading UK high street banks.</p>
+                        <div class="mt-6 hidden lg:block">
                             <button class="flex items-center border border-accent px-4 rounded py-2 leading-6 text-accent hover:text-white hover:bg-accent space-x-4">
                                 <span>
                                     <svg class="tw-play-icon text-current transition-all delay-75 " fill="currentColor" width="30" height="30" xmlns="http://www.w3.org/2000/svg"><path d="M15 0c8.284 0 15 6.624 15 14.796v.408C30 23.376 23.284 30 15 30 6.716 30 0 23.376 0 15.204v-.408C0 6.624 6.716 0 15 0zm4.655 14.796l-7.241-5.612v11.224l7.241-5.612z" fill-rule="nonzero"></path></svg>
                                 </span>
-                                <span class="font-medium">See how we send money</span>
+                                <span class="font-medium text-sm">See how we send money</span>
                             </button>
                         </div>
                     </div>

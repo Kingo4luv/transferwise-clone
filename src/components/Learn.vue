@@ -33,7 +33,7 @@
             </div>
             <div class="w-full md:w-1/2 xl:w-4/6 flex justify-center lg:justify-end mb-6">
                 <div class="w-4/6 lg:w-3/6 flex justify-center lg:justify-end">
-                    <img src="https://transferwise.com/staticrab/homepage/_next/static/images/borderless-phone-32fab951adaf29c41db9463191e38ccc.jpg" alt="apple store" class="w-full h-auto lg:h-96">
+                    <img src="https://wise.com/static-assets/app/_next/static/images/borderless-phone-32fab951adaf29c41db9463191e38ccc.jpg" alt="apple store" class="w-full h-auto lg:h-96">
                 </div>
             </div>
         </div>

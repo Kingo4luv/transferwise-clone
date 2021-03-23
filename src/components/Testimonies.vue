@@ -90,21 +90,21 @@ export default {
                     profile: "Sophie, Sydney, Australia",
                     name: "Sophie",
                     videoId: "OLkLdD7LynU",
-                    image: "https://transferwise.com/staticrab/homepage/_next/static/images/sophie-ccda413f0d713f5d7330c0e6146fdc69.jpg",
+                    image: "https://wise.com/static-assets/app/_next/static/images/sophie-ccda413f0d713f5d7330c0e6146fdc69.jpg",
                 },
                 {
                     message: "With TransferWise it's just so easy and effortless.",
                     profile: "Ejiro, Toronto, Canada",
                     name: "Ejiro",
                     videoId: "wt09PelQ_vI",
-                    image: "https://transferwise.com/staticrab/homepage/_next/static/images/ejiro-275a884b244bfd2053ac4ec465b292ad.jpg"
+                    image: "https://wise.com/static-assets/app/_next/static/images/ejiro-275a884b244bfd2053ac4ec465b292ad.jpg"
                 },
                 {
                     message: "Using TransferWise for international payments just makes life really easy.",
                     profile: "Lucy and Yak, Brighton, UK",
                     name: "Lucy and Yak",
                     videoId: "WAoycsB_hn0",
-                    image: "https://transferwise.com/staticrab/homepage/_next/static/images/lucyYak-14c19d066aee02f54230bfc017a2521f.jpg"
+                    image: "https://wise.com/static-assets/app/_next/static/images/lucyYak-14c19d066aee02f54230bfc017a2521f.jpg"
                 },
             ],
             videoId: '',

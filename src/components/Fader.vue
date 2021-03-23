@@ -21,29 +21,29 @@
             </div>
             <div class="w-full md:w-1/2 flex h-96 mb-10 md:mb-0 md:h-auto relative px-2 md:px-16 image-container overflow-hidden">
                 <div class="w-1/4 relative h-full box-border block">
-                    <img class="image-1 column-1 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_22-bc50bc1a346cba30fb6e407ac67a0667.jpg" alt="">
-                    <img class="image-2 column-1 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_9-c26aad8759c5efce2161ddd522bc2a01.jpg" alt="">
-                    <img class="image-3 column-1 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_10-b1205d9bad12cb4a21f8e282e2bb2631.jpg" alt="">
+                    <img class="image-1 column-1 opacity-40 absolute transform -translate-y-24 " src="https://wise.com/static-assets/app/_next/static/images/person_11-00cea33579acb782b7c3117d1f7cfd40.jpg" alt="">
+                    <img class="image-2 column-1 opacity-40 absolute transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_9-c26aad8759c5efce2161ddd522bc2a01.jpg" alt="">
+                    <img class="image-3 column-1 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_10-b1205d9bad12cb4a21f8e282e2bb2631.jpg" alt="">
                 </div>
                  <div class="w-1/4 relative h-full box-border block">
-                    <img class="image-1 column-2 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_13-c2122cf06d2eb705e98d0d3d19ecf80f.jpg" alt="">
-                    <img class="image-2 column-2 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_14-846e74d3a2d100fa1cf372baaf952ab3.jpg" alt="">
-                    <img class="image-3 column-2 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_12-1baedd7f4cd7c73b7f3d9bbdd4590afc.jpg" alt="">
+                    <img class="image-1 column-2 opacity-40 absolute transform -translate-y-24 " src="https://wise.com/static-assets/app/_next/static/images/person_13-c2122cf06d2eb705e98d0d3d19ecf80f.jpg" alt="">
+                    <img class="image-2 column-2 opacity-40 absolute transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_14-846e74d3a2d100fa1cf372baaf952ab3.jpg" alt="">
+                    <img class="image-3 column-2 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_12-1baedd7f4cd7c73b7f3d9bbdd4590afc.jpg" alt="">
                 </div>
                  <div class="w-1/4 col-3 relative h-full box-border block">
-                    <img class="image-1 column-3 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_5-be82fc2ce9ea69c4c325526748211823.jpg" alt="">
-                    <img class="image-2 column-3 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_8-3579374f699f5fe66c9f949395df90f7.jpg" alt="">
-                    <img class="image-3 column-3 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_1-c67d50b951a7e1a3d5d72237ade0cf14.jpg" alt="">
+                    <img class="image-1 column-3 opacity-40 absolute transform -translate-y-24 " src="https://wise.com/static-assets/app/_next/static/images/person_5-be82fc2ce9ea69c4c325526748211823.jpg" alt="">
+                    <img class="image-2 column-3 opacity-40 absolute transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_8-3579374f699f5fe66c9f949395df90f7.jpg" alt="">
+                    <img class="image-3 column-3 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_1-c67d50b951a7e1a3d5d72237ade0cf14.jpg" alt="">
                 </div>
                  <div class="w-1/4 relative h-full box-border block">
-                    <img class="image-1 column-2 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_19-37fcb5779b86bb5585a139090d8db90d.jpg" alt="">
-                    <img class="image-2 column-2 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_15-2c2e24621c42972e306dfe244227fcd9.jpg" alt="">
-                    <img class="image-3 column-2 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_16-f221b24fc37acca2e1edf3ec5bb4dd99.jpg" alt="">
+                    <img class="image-1 column-2 opacity-40 absolute transform -translate-y-24 " src="https://wise.com/static-assets/app/_next/static/images/person_19-37fcb5779b86bb5585a139090d8db90d.jpg" alt="">
+                    <img class="image-2 column-2 opacity-40 absolute transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_15-2c2e24621c42972e306dfe244227fcd9.jpg" alt="">
+                    <img class="image-3 column-2 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_16-f221b24fc37acca2e1edf3ec5bb4dd99.jpg" alt="">
                 </div>
                  <div class="w-1/4 relative h-full box-border block">
-                    <img class="image-1 column-1 opacity-40 absolute transform -translate-y-24 " src="https://transferwise.com/staticrab/homepage/_next/static/images/person_20-94244fadaef8decd4751e474258d4eee.jpg" alt="">
-                    <img class="image-2 column-1 opacity-40 absolute transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_21-f93c171a0fa20d78a3494740f7547a4b.jpg" alt="">
-                    <img class="image-3 column-1 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://transferwise.com/staticrab/homepage/_next/static/images/person_17-bf6d39f644ff4821bbbbe3037475e5a0.jpg" alt="">
+                    <img class="image-1 column-1 opacity-40 absolute transform -translate-y-24 " src="https://wise.com/static-assets/app/_next/static/images/person_20-94244fadaef8decd4751e474258d4eee.jpg" alt="">
+                    <img class="image-2 column-1 opacity-40 absolute transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_21-f93c171a0fa20d78a3494740f7547a4b.jpg" alt="">
+                    <img class="image-3 column-1 opacity-40 absolute hidden md:block transform -translate-y-24" src="https://wise.com/static-assets/app/_next/static/images/person_17-bf6d39f644ff4821bbbbe3037475e5a0.jpg" alt="">
                 </div>
 
                 <div class="absolute inset-0 w-full flex flex-col items-center justify-center">
@@ -90,15 +90,15 @@ export default {
             currentIndex: 0,
             images: [
                 {
-                    src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_8-3579374f699f5fe66c9f949395df90f7.jpg",
+                    src: "https://wise.com/static-assets/app/_next/static/images/person_8-3579374f699f5fe66c9f949395df90f7.jpg",
                     tag:"where’s home? Long story",
                 },
                 {
-                    src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_5-be82fc2ce9ea69c4c325526748211823.jpg",
+                    src: "https://wise.com/static-assets/app/_next/static/images/person_5-be82fc2ce9ea69c4c325526748211823.jpg",
                     tag:"our Portugal place, purchased"
                 },
                 {
-                    src: "https://transferwise.com/staticrab/homepage/_next/static/images/person_1-c67d50b951a7e1a3d5d72237ade0cf14.jpg",
+                    src: "https://wise.com/static-assets/app/_next/static/images/person_1-c67d50b951a7e1a3d5d72237ade0cf14.jpg",
                     tag:"got one app for all my currencies"
                 }
             ]
